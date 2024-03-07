@@ -1,0 +1,26 @@
+WIDTH = 1280
+HEIGHT = 720
+
+ROWS = 8
+COLS = 8
+
+BACKGROUND_IMAGE = "assets/background.jpg"
+
+# Padding
+X_GAP = 305
+Y_GAP = 50
+
+FIELD_WIDTH = (WIDTH - X_GAP * 2) // ROWS
+FIELD_HEIGHT = (HEIGHT - Y_GAP * 2) // COLS
+
+FPS = 120
+
+BLACK = (0, 0, 0)
+WHITE = (255, 255, 255)
+GOLD = (170, 127, 46)
+LIGHT = (255, 255, 255)
+DARK = (65, 159, 96)
+
+GRAB_CURSOR = "assets/grab_cursor.png"
+GC_WIDTH = 24
+GC_HEIGHT = 24
